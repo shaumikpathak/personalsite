@@ -1,10 +1,7 @@
 {
   "version": "3.0.1",
   "homepage": "shaumikpathak.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shaumikpathak/personalsite.git"
-  },
+  
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
     "predeploy": "npm run build && react-snap",
